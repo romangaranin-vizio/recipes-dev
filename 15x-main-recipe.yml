@@ -14,9 +14,9 @@ recipe:
         conjure:
             components: [platform]
         toolkit:
-            components: loki
+            components: [loki]
         vzservices:
-            components: vzservices
+            components: [vzservices]
     components:
         loki:
             repo: BuddyTV/loki
