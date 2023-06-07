@@ -1,0 +1,36 @@
+---
+recipe:
+    base-recipe:
+        name: 15x-main-recipe
+        repo: test
+        branch: main
+    supported_targets: [5581, 5597]
+    feature-flags:
+        loki-volume
+        vizio-os-menu-colors
+    composite-builds:
+        vizios:
+            components: [platform, platform-manifest]
+        conjure:
+            components: [conjure-1, conjure-2, platform]
+        toolkit:
+            components: loki
+        vzservices:
+            components: vzservices
+    components:
+        loki:
+            repo: BuddyTV/loki
+            branch: master
+        vzservices:
+            repo: BuddyTV/vzservices
+            branch: master
+        platform:
+            repo: BuddyTV/platform
+            branch: master
+        platform-manifest:
+            repo: BuddyTV/platform
+            branch: master
+        loki-home:
+            repo: BuddyTV/loki-home
+            branch: master
+...
