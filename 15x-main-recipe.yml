@@ -4,7 +4,7 @@ recipe:
         name: 15x-main-recipe
         repo: test
         branch: main
-    supported_targets: [5581, 5597]
+    supported-targets: [5581, 5597]
     feature-flags:
         loki-volume
         vizio-os-menu-colors
