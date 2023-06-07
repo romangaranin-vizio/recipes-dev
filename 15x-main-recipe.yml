@@ -12,7 +12,7 @@ recipe:
         vizios:
             components: [platform, platform-manifest]
         conjure:
-            components: [conjure-1, conjure-2, platform]
+            components: [platform]
         toolkit:
             components: loki
         vzservices:
