@@ -1,8 +1,8 @@
 ---
 recipe:
     base-recipe:
-        name: 15x-main-recipe
-        repo: test
+        name: 09x-base-recipe
+        repo: romangaranin-vizio/recipes-base
         branch: main
     supported-targets: [5581, 5597]
     feature-flags:
