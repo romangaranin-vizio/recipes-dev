@@ -6,8 +6,8 @@ recipe:
         branch: main
     supported-targets: [5581, 5597]
     feature-flags:
-        loki-volume
-        vizio-os-menu-colors
+        - loki-volume
+        - vizio-os-menu-colors
     composite-builds:
         vizios:
             components: [platform, platform-manifest]
