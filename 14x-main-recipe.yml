@@ -1,7 +1,7 @@
 ---
 recipe:
     base-recipe:
-        name: 09x-base-recipe
+        name: 08x-base-recipe
         repo: romangaranin-vizio/recipes-base
         branch: main
     supported-targets: [5581]
