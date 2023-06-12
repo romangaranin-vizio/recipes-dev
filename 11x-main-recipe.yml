@@ -2,6 +2,7 @@
 recipe:
     base-recipe:
         name: 07x-base-recipe
+        repo: romangaranin-vizio/recipes-base
         tag: mobile
     supported-targets: [5581]
     composite-builds:
