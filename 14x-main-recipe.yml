@@ -3,6 +3,7 @@ recipe:
     base-recipe:
         name: 08x-base-recipe
         repo: romangaranin-vizio/recipes-base
+        commit: 2588b676d2b01bbf09b7622d8f7a273778784f00
         branch: main
     supported-targets: [5581]
     composite-builds:
