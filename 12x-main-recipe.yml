@@ -1,0 +1,14 @@
+---
+recipe:
+    base-recipe:
+        name: 07x-base-recipe
+        repo: romangaranin-vizio/recipes-base
+    supported-targets: [5581]
+    composite-builds:
+        toolkit:
+            components: [loki]
+    components:
+        loki:
+            repo: BuddyTV/loki
+            branch: master
+...
