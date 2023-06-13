@@ -1,0 +1,41 @@
+---
+recipe:
+    base-recipe:
+        name: 09x-base-recipe
+        repo: romangaranin-vizio/recipes-base
+        branch: main
+    supported-targets: [5581, 5597]
+    feature-flags:
+        - loki-volume
+        - vizio-os-menu-colors
+    composite-builds:
+        vizios:
+            components: [platform, platform-manifest]
+        conjure:
+            components: [platform]
+        toolkit:
+            components: [loki]
+        vzservices:
+            components: [vzservices]
+        wsbridge:
+            components: wsbridge
+            
+    components:
+        loki:
+            repo: BuddyTV/loki
+            branch: master
+        vzservices:
+            repo: BuddyTV/vzservices
+            branch: master
+        platform:
+            repo: BuddyTV/platform
+            branch: master
+        platform-manifest:
+            repo: BuddyTV/platform-manifest
+            branch: master
+        loki-home:
+            repo: BuddyTV/loki-home
+            branch: master
+        wsbridge:
+            repo: wsbridge
+...
