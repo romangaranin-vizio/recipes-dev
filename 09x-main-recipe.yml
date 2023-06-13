@@ -7,5 +7,6 @@ recipe:
     components:
         loki:
             repo: BuddyTV/loki
+            branch: 13823
             tag: v1.3.6
 ...
