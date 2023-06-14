@@ -6,7 +6,7 @@ recipe:
         repo: romangaranin-vizio/recipes-base
         tag: mobile2
     composite-builds:
-        toolkit:
+        loki:
             components: [loki]
     components:
         loki:
