@@ -4,7 +4,7 @@ recipe:
     base-recipe:
         name: test_base_recipe_from_specific_branch
         repo: romangaranin-vizio/recipes-base
-        tag: mobile
+        tag: mobile2
     composite-builds:
         toolkit:
             components: [loki]
