@@ -1,0 +1,13 @@
+---
+recipe:
+    supported-targets: [5581]
+    composite-builds:
+        toolkit:
+            components: [loki]
+        conjure:
+            components: [conjure-1]
+    components:
+        loki:
+            repo: BuddyTV/conjure-1
+            branch: master
+...
