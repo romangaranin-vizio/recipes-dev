@@ -7,7 +7,7 @@ recipe:
         conjure:
             components: [conjure-1]
     components:
-        loki:
+        conjure-1:
             repo: BuddyTV/conjure-1
             branch: master
 ...
