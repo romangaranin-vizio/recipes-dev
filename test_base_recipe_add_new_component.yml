@@ -2,8 +2,9 @@
 recipe:
     supported-targets: [5581]
     base-recipe:
-        name: test_base_recipe_add_new_component
+        name: test_base_recipe_from_specific_branch
         repo: romangaranin-vizio/recipes-base
+        branch: test
     composite-builds:
         toolkit:
             components: [loki]
