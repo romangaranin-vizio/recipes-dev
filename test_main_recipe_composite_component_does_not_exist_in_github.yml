@@ -10,4 +10,7 @@ recipe:
         conjure-1:
             repo: BuddyTV/conjure-1
             branch: master
+        loki:
+            repo: BuddyTV/loki
+            branch: master
 ...
