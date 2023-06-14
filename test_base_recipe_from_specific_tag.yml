@@ -2,7 +2,7 @@
 recipe:
     supported-targets: [5581]
     base-recipe:
-        name: test_base_recipe_from_specific_branch
+        name: test_base_recipe_from_specific_tag
         repo: romangaranin-vizio/recipes-base
         tag: mobile2
     composite-builds:
