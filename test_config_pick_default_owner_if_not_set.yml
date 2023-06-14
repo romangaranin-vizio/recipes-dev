@@ -1,0 +1,11 @@
+---
+recipe:
+    supported-targets: [5581]
+    composite-builds:
+        toolkit:
+            components: [recipes-base]
+    components:
+        recipes-base:
+            repo: recipes-base
+            branch: main
+...
