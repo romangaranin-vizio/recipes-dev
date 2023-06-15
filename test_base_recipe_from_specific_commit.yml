@@ -2,7 +2,7 @@
 recipe:
     supported-targets: [5581]
     base-recipe:
-        name: test_base_recipe_from_specific_tag
+        name: test_base_recipe_from_specific_commit
         repo: romangaranin-vizio/recipes-base
         commit: 85236df3ef178efb912e367aa9ca340fe51351cb
     composite-builds:
