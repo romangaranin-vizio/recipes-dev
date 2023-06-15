@@ -1,0 +1,17 @@
+---
+recipe:
+    supported-targets: [5581]
+    base-recipe:
+        name: test_base_recipe_commit_branch_and_tag
+        repo: romangaranin-vizio/recipes-base
+        branch: test
+        tag: mobile
+        commit: 594e0899a077bfd0271ec9f7bb80949b0cfcf302
+    composite-builds:
+        loki:
+            components: [loki]
+    components:
+        loki:
+            repo: BuddyTV/loki
+            branch: master
+...
