@@ -1,0 +1,13 @@
+---
+recipe:
+    supported-targets: [5581]
+    base-recipe:
+        name: 17x-main-recipe.json
+        repo: BuddyTV/recipe-config-files
+    composite-builds:
+        smartcast-ios:
+            components: [smartcast-ios]
+    components:
+        smartcast-ios:
+            repo: BuddyTV/smartcast-ios
+...
